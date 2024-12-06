@@ -34,7 +34,7 @@ String toucheSensor;
 String ledState;
 int distance;
 
-/*void setup() {
+void setup() {
 
    Serial.begin(9600);
 
@@ -45,7 +45,7 @@ int distance;
   while (!Serial) {
     ; // wait for serial port to connect. Needed for native USB port only
   }
-
+  /*/
   // attempt to connect to WiFi network:
   Serial.print("Attempting to connect to WPA SSID: ");
   Serial.println(ssid);
